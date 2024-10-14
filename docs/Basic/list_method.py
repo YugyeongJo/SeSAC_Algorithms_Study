@@ -14,6 +14,11 @@ print(nums)
 nums.sort(reverse=True)
 print(nums)
 
+# 2d sort
+nums_2d = [[0, 1], [5, 0], [2, 2]]
+nums_2d.sort(key=lambda x : x[1])
+print(nums_2d)
+
 # count
 print(nums.count(3))
 
