@@ -23,6 +23,7 @@ SeSAC Algorithms Study 레포지토리는
 ```plaintext
 SeSAC_ML_Study/
 ├── README.md 
+├── icons/
 ├── docs/
 │     ├── Basic/
 │     │     ├── linear_search_in_1d_list.py
