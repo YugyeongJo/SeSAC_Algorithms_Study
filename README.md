@@ -29,7 +29,7 @@ SeSAC_ML_Study/
 │     │     ├── linear_search_in_1d_list.py
 │     │     ├── aggregation_algorithm.py
 │     │     ├── list_comprehension.py
-│     │     ├──
+│     │     ├── list_method.py
 │     │     ├──
 │     ├── 
 │     ├── 
@@ -49,10 +49,11 @@ SeSAC_ML_Study/
 |01|List|[linear_search_in_1d_list.py](./docs/Basic/linear_search_in_1d_list.py)|1차원 리스트와 선형 탐색||
 |02|Dictionary|[aggregation_algorithm.py](./docs/Basic/linear_search_in_1d_list.py)|집계 알고리즘|defaultdict|
 |03|List|[list_comprehension.py](./docs/Basic/list_comprehension.py)|list comprehension, 다양한 list 생성 방법||
-|04|||||
+|04|List|[list_method.py](./docs/Basic/list_method.py)|list 메서드||
 |05|||||
 
 </details>
 
 
 ## 📝참고자료
+- 파이썬 튜터 : https://pythontutor.com/ 
