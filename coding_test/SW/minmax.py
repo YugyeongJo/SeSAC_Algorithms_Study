@@ -1,3 +1,6 @@
+# https://swexpertacademy.com/main/learn/course/subjectDetail.do?courseId=AVuPDN86AAXw5UW6&subjectId=AWOVFCzaqeUDFAWg#
+
+
 # [입력]
 
 # 첫 줄에 테스트 케이스의 수 T가 주어진다. ( 1 ≤ T ≤ 50 )
@@ -32,3 +35,15 @@ for i in range(num):
     answer = max[0]-min[0]
     print(f"#{i} {answer}")
 
+# solution
+
+T = int(input())
+
+for tc in range(1, T+1):
+    N = int(input())
+    nums = list(map(int, input().split()))    
+    max_num = max(nums)
+    min_num = min(nums)
+    
+    ans = max_num - min_num
+    print(f'#{tc} {ans}')
