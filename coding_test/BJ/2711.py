@@ -19,3 +19,15 @@ for _ in range(T):
 
     print(text[:idx-1], text[idx:], sep='')
     
+# another solution
+
+for _ in range(T):
+    idx, word = input().split()
+    idx = int(idx) - 1
+
+    new_word = word[:idx] + word[idx+1:]
+    print(new_word)
+    
+    word = list(word)
+    word.pop(idx)
+    print(''.join.split())    
