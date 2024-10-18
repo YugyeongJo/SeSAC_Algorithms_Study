@@ -9,7 +9,6 @@ SeSAC Algorithms Study 레포지토리는
 |구분|학습 내용|
 |--|--|
 
-
 ## 🛠️ 기술 스택
 
 |<center>VScode</center>|<center>Python</center>|
