@@ -34,7 +34,12 @@ SeSAC_ML_Study/
 │     │     ├── palindrome.py
 │     │     ├── 
 │     │     ├── 
-│     ├── 
+│     ├── algorithm/
+│     │     ├── interver_sum.py
+│     │     ├──
+│     │     ├──
+│     │     ├──
+│     │     ├──
 │     ├── 
 │     ├── 
 ├── coding_test/
@@ -63,6 +68,17 @@ SeSAC_ML_Study/
 ||||||
 ||||||
 ||||||
+||||||
+||||||
+
+</details>
+
+<details open>
+<summary> 💻 algorithm </summary>
+
+|번호|구분|파일|설명|비고|
+|--|--|--|--|--|
+|01|Interver Sum|[interver_sum.py](./docs/algorithm/interver_sum.py)|구간합 알고리즘 학습|from itertools import accumulate|
 ||||||
 ||||||
 

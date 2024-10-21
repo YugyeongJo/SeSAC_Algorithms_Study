@@ -16,35 +16,36 @@
 import sys
 input = sys.stdin.readline
 
-def is_palindrome(s):
-    return s == s[::-1]
-
+def is_palindrome(word):
+    if word == word[::-1]:
+        return True
+    return False
+    
 T = int(input())
 
-for _ in range(T):
-    k = int(input())
-    words = [input().strip() for _ in range(k)]
-    found = False
+def solution(T):
+    for _ in range(T):
+        N = int(input())
+        word = [input().strip() for _ in range(N)]
+        
+        found_palindrome = False
 
-    # 모든 단어 쌍에 대해 팰린드롬 여부 확인
-    for i in range(k):
-        for j in range(k):
-            if i != j:  # 같은 단어는 제외
-                combined1 = words[i] + words[j]  # words[i] + words[j]
-                combined2 = words[j] + words[i]  # words[j] + words[i]
+        for i in range(N):
+            for j in range(N):
+                if i != j:
+                    words = word[i] + word[j]
+                    if is_palindrome(words):
+                        print(words)
+                        found_palindrome = True
+                        break
+        
+            if found_palindrome:
+                break
+
+        if not found_palindrome:
+            print(0)
+
+solution(T)
                 
-                if is_palindrome(combined1):
-                    print(combined1)
-                    found = True
-                    break  # 팰린드롬을 찾으면 더 이상 확인할 필요 없음
-                if is_palindrome(combined2):
-                    print(combined2)
-                    found = True
-                    break  # 팰린드롬을 찾으면 더 이상 확인할 필요 없음
-        if found:
-            break  # 팰린드롬을 찾으면 전체 테스트 케이스를 종료
-    
-    if not found:
-        print(0)  # 가능한 팰린드롬이 없는 경우
 
             
