@@ -29,9 +29,54 @@ input = sys.stdin.readline
 
 gems = ["DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"]
 
-gems_kind = {gem: 0 for gem in set(gems)}
+gems_kind = {'RUBY': 0, 'DIA': 0, 'EMERALD': 0, 'SAPPHIRE': 0}
 
 def solution(gems):
+    start = 0
+    end = 0
     
+    for i in len(gems):
+        if gems[i] in gems_kind:
+            end += 1
+            gems_kind[gems[i]] += 1
+            
+            if all(v >= 1 for v in gems_kind.values()):
+                pass
+            
+            
     answer = []
+    return answer
+
+# ==============================
+from collections import defaultdict
+
+def solution(gems):
+    size = len(set(gems))
+    answer = [1, len(gems)]
+    
+    # 투포인터 세팅
+    l = r = 0
+    gem_info = defaultdict(int)
+    gem_info[gems[0]] += 1
+    
+    # 포인터 이동
+    while r < len(gems):
+        
+    # 종류가 다 있다면?
+        if len(gem_info) == size:
+            if r-1 < answer[1] - answer[0]:
+                answer = [l+1, r+1]
+                
+            gem_info[gems[l]] -= 1
+            if gem_info[gems[l]] == 0:
+                del gem_info[gems[l]]
+            l += 1
+        
+    # 종류가 부족하다면 
+        else:
+            r += 1
+            if r == len(gems):
+                break
+            gem_info[gems[r]] += 1
+    
     return answer

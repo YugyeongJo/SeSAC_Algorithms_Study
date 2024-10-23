@@ -51,4 +51,9 @@ for book_name, selling in book_info.items():
         bestseller = book_name
         
     elif selling == cnt:
-        bestseller = 
+        bestseller = min(bestseller, book_name)
+        
+print(bestseller)
+
+# 정렬
+print(sorted(book_info.items(), key=lambda x : (-x[1], x[0])))[0][0]
