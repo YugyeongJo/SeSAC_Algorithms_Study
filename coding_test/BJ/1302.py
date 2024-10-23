@@ -42,5 +42,13 @@ max_book_sales = max(book_info.values())
 max_book_count = min([book for book, count in book_info.items() if count == max_book_sales])
 print(max_book_count)
 
+# 선형탐색 =========================
+cnt = 0
+bestseller = ''
 
-
+for book_name, selling in book_info.items():
+    if selling > cnt:
+        bestseller = book_name
+        
+    elif selling == cnt:
+        bestseller = 

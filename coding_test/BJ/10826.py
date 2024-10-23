@@ -1,4 +1,4 @@
-# https://www.acmicpc.net/problem/10870
+# https://www.acmicpc.net/problem/10826
 
 # 문제
 # 피보나치 수는 0과 1로 시작한다. 0번째 피보나치 수는 0이고, 1번째 피보나치 수는 1이다. 그 다음 2번째 부터는 바로 앞 두 피보나치 수의 합이 된다.
@@ -12,16 +12,17 @@
 # n이 주어졌을 때, n번째 피보나치 수를 구하는 프로그램을 작성하시오.
 
 # 입력
-# 첫째 줄에 n이 주어진다. n은 20보다 작거나 같은 자연수 또는 0이다.
+# 첫째 줄에 n이 주어진다. n은 10,000보다 작거나 같은 자연수 또는 0이다.
 
 # 출력
 # 첫째 줄에 n번째 피보나치 수를 출력한다.
+import sys
+input = sys.stdin.readline
 
-def fibo(n):
-    if n <= 1 :
-        return n
-    else:
-        return fibo(n-1) + fibo(n-2) 
+N = int(input())
+memo = [0, 1]
 
-n = int(input())
-print(fibo(n))
+for _ in range(N-1):
+    memo.append(memo[-1] + memo[-2])
+    
+print(memo[N])

@@ -31,21 +31,19 @@ SeSAC_ML_Study/
 │     │     ├── list_method.py
 │     │     ├── input_print.py
 │     │     ├── map.py
-│     │     ├── palindrome.py
-│     │     ├── 
-│     │     ├── 
+│     │     └── palindrome.py
 │     ├── algorithm/
 │     │     ├── interver_sum.py
+│     │     ├── recursive_func.py
+│     │     ├── fibonachi.py
 │     │     ├──
-│     │     ├──
-│     │     ├──
-│     │     ├──
+│     │     └──
 │     ├── 
 │     ├── 
 ├── coding_test/
-│     ├──
-│     ├──
-│     ├──
+│     ├── BJ/
+│     ├── SW/
+│     └──  PGMS/
 └── 
 
 ```
@@ -64,12 +62,6 @@ SeSAC_ML_Study/
 |05|Input, Print|[input_print.py](./docs/Basic/input_print.py)|input과 print 메서드|+ rstip()|
 |06|Map|[map.py](./docs/Basic/map.py)|map 메서드||
 |07|palindrome|[palindrome.py](./docs/Basic/palindrome.py)|회문 학습하기|two point algorithm|
-||||||
-||||||
-||||||
-||||||
-||||||
-||||||
 
 </details>
 
@@ -79,6 +71,13 @@ SeSAC_ML_Study/
 |번호|구분|파일|설명|비고|
 |--|--|--|--|--|
 |01|Interver Sum|[interver_sum.py](./docs/algorithm/interver_sum.py)|구간합 알고리즘 학습|from itertools import accumulate|
+|02|Recursion Function|[recursion_func.py](./docs/algorithm/recursion_func.py)|재귀함수 학습|시스템 스택|
+|03|Fibonachi|[fibonachi.py](./docs/algorithm/fibonachi.py)|피보나치 수열 재귀함수 풀이||
+|04|||||
+|05|||||
+||||||
+||||||
+||||||
 ||||||
 ||||||
 
@@ -88,9 +87,9 @@ SeSAC_ML_Study/
 
 |번호|구분|풀이경로|비고|
 |--|--|--|--|
-|01|Baekjoon|[Baekjoon](./coding_test/BJ)||
-|02|SW|[SW](./coding_test/SW)||
-|03|Programmers|||
+|01|Baekjoon|[Baekjoon](./coding_test/BJ)|https://www.acmicpc.net/|
+|02|SW Expert Academy|[SW](./coding_test/SW)|https://swexpertacademy.com/main/main.do|
+|03|Programmers|[PGMS](./coding_test/PGMS)|https://programmers.co.kr/|
 
 ## 📝참고자료
 - 파이썬 튜터 : https://pythontutor.com/ 
