@@ -36,7 +36,7 @@ SeSAC_ML_Study/
 │     │     ├── interver_sum.py
 │     │     ├── recursive_func.py
 │     │     ├── fibonachi.py
-│     │     ├──
+│     │     ├── matrix.py
 │     │     └──
 │     ├── 
 │     ├── 
@@ -73,9 +73,9 @@ SeSAC_ML_Study/
 |01|Interver Sum|[interver_sum.py](./docs/algorithm/interver_sum.py)|구간합 알고리즘 학습|from itertools import accumulate|
 |02|Recursion Function|[recursion_func.py](./docs/algorithm/recursion_func.py)|재귀함수 학습|시스템 스택|
 |03|Fibonachi|[fibonachi.py](./docs/algorithm/fibonachi.py)|피보나치 수열 재귀함수 풀이||
-|04|||||
-|05|||||
-||||||
+|04|Sort|[sort.py]|||
+|05|Matrix|[matrix.py](./docs/algorithm/matrix.py)|2차원 리스트||
+|06|||||
 ||||||
 ||||||
 ||||||

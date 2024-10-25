@@ -74,12 +74,12 @@ T = int(input())
 for tc in range(1, T+1):
     P, A, B = map(int, input().split())
     
-    cnt_A = binary_search(0, P, A, 0)
-    cnt_B = binary_search(0, P, B, 0)
+    cnt_A = binary_search(1, P, A, 0)
+    cnt_B = binary_search(1, P, B, 0)
     
     answer = 0 if cnt_A == cnt_B else 'A' if cnt_A < cnt_B else 'B'
     
-    print(answer)
+    print(f'#{tc} {answer}')
         
     
 
