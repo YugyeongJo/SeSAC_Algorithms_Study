@@ -75,7 +75,7 @@ SeSAC_ML_Study/
 |03|Fibonachi|[fibonachi.py](./docs/algorithm/fibonachi.py)|피보나치 수열 재귀함수 풀이||
 |04|Sort|[sort.py]|||
 |05|Matrix|[matrix.py](./docs/algorithm/matrix.py)|2차원 리스트||
-|06|||||
+|06|Delta Search|[matrix_deltasearch.py](./docs/algorithm/matrix_deltasearch.py)|델타탐색||
 ||||||
 ||||||
 ||||||
