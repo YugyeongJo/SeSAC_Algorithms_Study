@@ -2,7 +2,7 @@
 
 ## 📖 소개
 
-SeSAC Algorithms Study 레포지토리는  
+SeSAC Algorithms Study 레포지토리는 python 알고리즘
 
 ### 학습 내용
 
